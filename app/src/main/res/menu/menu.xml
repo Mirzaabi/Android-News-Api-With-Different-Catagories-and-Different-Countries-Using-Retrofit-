@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/root_group"
+        android:checkableBehavior="single">
+
+        <item android:id="@+id/category"
+            android:title="Categories">
+            <menu>
+                <item android:id="@+id/menu_genral"
+                    android:icon="@drawable/genralicon"
+                    android:title="Genral News"/>
+                <item android:id="@+id/menu_health"
+                    android:icon="@drawable/healthicon"
+                    android:title="Health News"/>
+                <item android:id="@+id/menu_business"
+                    android:icon="@drawable/bussines"
+                    android:title="Business News"/>
+                <item android:id="@+id/menu_science"
+                    android:icon="@drawable/scienceicon"
+                    android:title="Science News"/>
+                <item android:id="@+id/menu_apple"
+                    android:icon="@drawable/appleicon"
+                    android:title="Apple News"/>
+                <item android:id="@+id/menu_tesla"
+                    android:icon="@drawable/teslaicon"
+                    android:title="Tesla News"/>
+                <item android:id="@+id/menu_wsj"
+                    android:icon="@drawable/wsjicon"
+                    android:title="Wall Street Journal"/>
+                <item android:id="@+id/menu_techcrunch"
+                    android:icon="@drawable/techicon"
+                    android:title="TechCrunch"/>
+                <item android:id="@+id/menu_entertainment"
+                    android:icon="@drawable/entertainmenticon"
+                    android:title="Entertainment"/>
+                <item android:id="@+id/menu_sports"
+                    android:icon="@drawable/sportsicon"
+                    android:title="Sports News"/>
+
+            </menu>
+
+
+        </item>
+
+    </group>
+    <group
+        android:id="@+id/second_group"
+        android:checkableBehavior="single">
+
+
+    </group>
+
+</menu>

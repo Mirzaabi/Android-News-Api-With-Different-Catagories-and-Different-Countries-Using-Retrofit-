@@ -1,0 +1,18 @@
+<resources>
+    <string name="navigation_drawer_open">open navigation drawer</string>
+    <string name="navigation_drawer_close">close navigation drawer</string>
+    <string name="app_name">NewsWorld</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="countries">
+        <item>Select Your Country</item>
+        <item>India</item>
+        <item>America</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Canada</item>
+        <item>China</item>
+        <item>Dubai</item>
+    </string-array>
+</resources>
